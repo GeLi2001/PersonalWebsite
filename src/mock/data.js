@@ -2,26 +2,26 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Ge Li', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Personal Website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
+  title: 'Hi, I am ',
+  name: 'Ge Li',
+  subtitle: "I'm the Front-end/ML/Software developer",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
+  img: 'profiles.jpg',
+  paragraphOne: 'I am a sophomore studying at UC-Berkeley majoring in Computer Science. My interested domain is software engineering and machine Learning.',
   paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphThree: 'Here is my email if you want to contact me: geli2001@berkeley.edu',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
